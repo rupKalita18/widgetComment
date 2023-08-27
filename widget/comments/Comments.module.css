@@ -1,0 +1,81 @@
+.commentWrapper{
+
+}
+
+.container{
+   display: flex;
+   gap:20px; 
+
+}
+
+.image{
+    height:40px;
+    width:40px;
+    
+}
+
+.parentName{
+    font-size:12px;
+    opacity: 0.3;
+    font-weight: 200;
+}
+
+.widgets{
+    display:flex;
+    gap:20px;
+    font-size: 12px;
+    font-weight: 700;
+    .user{
+        color:blue;
+    }
+    .time{
+        opacity: 0.4;
+    }
+}
+
+.alternativeBox{
+    min-height:40px;
+    width:40px;
+    border:1px solid #ddd;
+}
+
+.commentText{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 20px;
+    /* max-width: 700px; */
+    /* opacity: 0.5; */
+}
+
+.actionButtons{
+    display: flex;
+    gap:10px;
+    font-size: 12px;
+    position: relative;
+    left:5%;
+    opacity: 0.6;
+    margin-top: -2px;
+}
+
+.replies{
+    margin-left:3%;
+    margin-top: 12px;
+}
+
+.editMode{
+    margin: 10px 0px;
+
+    .input{
+        padding:2px 10px;
+        width:300px;
+    }
+
+    .save{
+        outline:none;
+        border: 1px solid #ddd;
+        background-color: transparent;
+        padding:3px 10px;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+}
